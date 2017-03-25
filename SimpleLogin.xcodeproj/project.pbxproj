@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		757AA9CD1E8665BB008453AB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757AA9C91E8665BB008453AB /* FBSDKCoreKit.framework */; };
+		757AA9CE1E8665BB008453AB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757AA9CA1E8665BB008453AB /* FBSDKLoginKit.framework */; };
+		757AA9CF1E8665BB008453AB /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757AA9CB1E8665BB008453AB /* FBSDKMessengerShareKit.framework */; };
+		757AA9D01E8665BB008453AB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757AA9CC1E8665BB008453AB /* FBSDKShareKit.framework */; };
 		75CF3DDC1E8435E0004A581F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF3DDB1E8435E0004A581F /* AppDelegate.swift */; };
 		75CF3DDE1E8435E0004A581F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF3DDD1E8435E0004A581F /* ViewController.swift */; };
 		75CF3DE11E8435E0004A581F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF3DDF1E8435E0004A581F /* Main.storyboard */; };
@@ -15,6 +19,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		757AA9C11E86658F008453AB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		757AA9C21E86658F008453AB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		757AA9C31E86658F008453AB /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		757AA9C41E86658F008453AB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		757AA9C91E8665BB008453AB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		757AA9CA1E8665BB008453AB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		757AA9CB1E8665BB008453AB /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		757AA9CC1E8665BB008453AB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		75CF3DD81E8435E0004A581F /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CF3DDB1E8435E0004A581F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CF3DDD1E8435E0004A581F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +41,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757AA9D01E8665BB008453AB /* FBSDKShareKit.framework in Frameworks */,
+				757AA9CE1E8665BB008453AB /* FBSDKLoginKit.framework in Frameworks */,
+				757AA9CF1E8665BB008453AB /* FBSDKMessengerShareKit.framework in Frameworks */,
+				757AA9CD1E8665BB008453AB /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		757AA9C01E86658F008453AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757AA9C11E86658F008453AB /* FBSDKCoreKit.framework */,
+				757AA9C21E86658F008453AB /* FBSDKLoginKit.framework */,
+				757AA9C31E86658F008453AB /* FBSDKMessengerShareKit.framework */,
+				757AA9C41E86658F008453AB /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		757AA9D11E8665C3008453AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757AA9C91E8665BB008453AB /* FBSDKCoreKit.framework */,
+				757AA9CA1E8665BB008453AB /* FBSDKLoginKit.framework */,
+				757AA9CB1E8665BB008453AB /* FBSDKMessengerShareKit.framework */,
+				757AA9CC1E8665BB008453AB /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75CF3DCF1E8435E0004A581F = {
 			isa = PBXGroup;
 			children = (
 				75CF3DDA1E8435E0004A581F /* SimpleLogin */,
 				75CF3DD91E8435E0004A581F /* Products */,
+				757AA9C01E86658F008453AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +97,7 @@
 				75CF3DDD1E8435E0004A581F /* ViewController.swift */,
 				75CF3DDF1E8435E0004A581F /* Main.storyboard */,
 				75CF3DE21E8435E0004A581F /* Assets.xcassets */,
+				757AA9D11E8665C3008453AB /* Frameworks */,
 				75CF3DE41E8435E0004A581F /* LaunchScreen.storyboard */,
 				75CF3DE71E8435E0004A581F /* Info.plist */,
 			);
@@ -262,6 +302,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WP5H3UQ7P2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleLogin",
+				);
 				INFOPLIST_FILE = SimpleLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bananaapps.co.uk.SimpleLogin;
@@ -275,6 +319,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WP5H3UQ7P2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleLogin",
+				);
 				INFOPLIST_FILE = SimpleLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bananaapps.co.uk.SimpleLogin;
@@ -302,6 +350,7 @@
 				75CF3DEC1E8435E0004A581F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
